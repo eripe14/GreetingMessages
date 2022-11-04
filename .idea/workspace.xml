@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec29c327-a842-48cc-8a75-c3fd57cb7725" name="Changes" comment="Initial commit.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erip14/greetingsmessages/GreetingsMessagesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eripe14/greetingsmessages/GreetingsMessagesPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erip14/greetingsmessages/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eripe14/greetingsmessages/config/ConfigManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erip14/greetingsmessages/config/ReloadableConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eripe14/greetingsmessages/config/ReloadableConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erip14/greetingsmessages/config/implementation/MessageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eripe14/greetingsmessages/config/implementation/MessageConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erip14/greetingsmessages/config/implementation/PluginConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eripe14/greetingsmessages/config/implementation/PluginConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erip14/greetingsmessages/listeners/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eripe14/greetingsmessages/listeners/PlayerJoinListener.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec29c327-a842-48cc-8a75-c3fd57cb7725" name="Changes" comment="Initial commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665954093288</updated>
       <workItem from="1665954094595" duration="1970000" />
-      <workItem from="1667599726206" duration="138000" />
+      <workItem from="1667599726206" duration="912000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1665956323541</created>
@@ -146,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665956323541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit.">
+      <created>1667600103015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667600103015</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

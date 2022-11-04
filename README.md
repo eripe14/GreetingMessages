@@ -1,2 +1,1 @@
-# GreetingMessages
-Plugin created for spigotmc.org.
+<div align="center"><img src="" alt="banner" width="50%"/></div>
