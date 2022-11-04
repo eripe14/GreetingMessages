@@ -1,4 +1,4 @@
-package com.erip14.greetingsmessages.config;
+package com.eripe14.greetingsmessages.config;
 
 import net.dzikoysk.cdn.Cdn;
 import net.dzikoysk.cdn.CdnFactory;

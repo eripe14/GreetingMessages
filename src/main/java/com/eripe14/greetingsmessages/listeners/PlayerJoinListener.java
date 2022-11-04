@@ -1,7 +1,8 @@
-package com.erip14.greetingsmessages.listeners;
+package com.eripe14.greetingsmessages.listeners;
 
-import com.erip14.greetingsmessages.config.implementation.MessageConfig;
-import com.erip14.greetingsmessages.config.implementation.PluginConfig;
+import com.eripe14.greetingsmessages.config.implementation.MessageConfig;
+import com.eripe14.greetingsmessages.config.implementation.PluginConfig;
+import com.eripe14.greetingsmessages.util.ChatUtil;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -21,6 +22,7 @@ public class PlayerJoinListener implements Listener {
         this.random = random;
     }
 
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
@@ -30,18 +32,18 @@ public class PlayerJoinListener implements Listener {
         if (!player.hasPlayedBefore()) {
             randomNumber = this.random.nextInt(this.messageConfig.messages.size());
 
-            event.setJoinMessage(this.messageConfig.messages.get(randomNumber)
+            event.setJoinMessage(ChatUtil.color(this.messageConfig.messages.get(randomNumber)
                     .replace("{PREFIX}", this.pluginConfig.pluginPrefix)
-                    .replace("{PLAYER}", player.getName()));
+                    .replace("{PLAYER}", player.getName())));
 
             return;
         }
 
         randomNumber = this.random.nextInt(this.messageConfig.messagesWhenPlayerJoinAgain.size());
 
-        event.setJoinMessage(this.messageConfig.messagesWhenPlayerJoinAgain.get(randomNumber)
+        event.setJoinMessage(ChatUtil.color(this.messageConfig.messagesWhenPlayerJoinAgain.get(randomNumber)
                 .replace("{PREFIX}", this.pluginConfig.pluginPrefix)
-                .replace("{PLAYER}", player.getName()));
+                .replace("{PLAYER}", player.getName())));
     }
 
 }

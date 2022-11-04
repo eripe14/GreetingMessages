@@ -1,9 +1,9 @@
-package com.erip14.greetingsmessages;
+package com.eripe14.greetingsmessages;
 
-import com.erip14.greetingsmessages.config.ConfigManager;
-import com.erip14.greetingsmessages.config.implementation.MessageConfig;
-import com.erip14.greetingsmessages.config.implementation.PluginConfig;
-import com.erip14.greetingsmessages.listeners.PlayerJoinListener;
+import com.eripe14.greetingsmessages.config.ConfigManager;
+import com.eripe14.greetingsmessages.config.implementation.MessageConfig;
+import com.eripe14.greetingsmessages.config.implementation.PluginConfig;
+import com.eripe14.greetingsmessages.listeners.PlayerJoinListener;
 import com.google.common.base.Stopwatch;
 import org.bukkit.plugin.java.JavaPlugin;
 

@@ -1,6 +1,6 @@
-package com.erip14.greetingsmessages.config.implementation;
+package com.eripe14.greetingsmessages.config.implementation;
 
-import com.erip14.greetingsmessages.config.ReloadableConfig;
+import com.eripe14.greetingsmessages.config.ReloadableConfig;
 import net.dzikoysk.cdn.entity.Description;
 import net.dzikoysk.cdn.source.Resource;
 import net.dzikoysk.cdn.source.Source;

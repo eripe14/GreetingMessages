@@ -40,7 +40,7 @@ dependencies {
 }
 
 bukkit {
-    main = "com.eripe14.greentingsmessages.GreetingsMessagesPlugin"
+    main = "com.eripe14.greetingsmessages.GreetingsMessagesPlugin"
     apiVersion = "1.13"
     prefix = "Duels"
     name = "GreetingsMessages"

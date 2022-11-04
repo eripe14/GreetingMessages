@@ -1,6 +1,6 @@
-package com.erip14.greetingsmessages.config.implementation;
+package com.eripe14.greetingsmessages.config.implementation;
 
-import com.erip14.greetingsmessages.config.ReloadableConfig;
+import com.eripe14.greetingsmessages.config.ReloadableConfig;
 import net.dzikoysk.cdn.entity.Description;
 import net.dzikoysk.cdn.source.Resource;
 import net.dzikoysk.cdn.source.Source;
@@ -11,9 +11,6 @@ public class PluginConfig implements ReloadableConfig {
 
     @Description("# Plugin settings")
     public String pluginPrefix = "&8[&6&lGreetingsMessages&8] &7";
-
-    @Description("# Messages settings")
-    public boolean sendDifferentMessageWhenPlayerJoinsForTheFirstTime = true;
 
     @Override
     public Resource resource(File folder) {
