@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec29c327-a842-48cc-8a75-c3fd57cb7725" name="Changes" comment="Initial commit." />
+    <list default="true" id="ec29c327-a842-48cc-8a75-c3fd57cb7725" name="Changes" comment="Initial commit.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/img.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665954093288</updated>
       <workItem from="1665954094595" duration="1970000" />
-      <workItem from="1667599726206" duration="912000" />
+      <workItem from="1667599726206" duration="1225000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1665956323541</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667600103015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit.">
+      <created>1667600831489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667600831489</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
